@@ -51,8 +51,9 @@ const obj = {
 // }
 // apple();
 
-const apple = () => {
-    console.log("banana");
-};
+// arrow function
+// const apple = () => {
+//     console.log("banana");
+// };
 
-apple();
+// apple();
