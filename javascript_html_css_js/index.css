@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+}
+.hello1
+{
+    
+    background-color: red;
+    font-size: larger;
+    text-align: center;
+    width: 100vw;
+}
+.hello2
+{
+   
+    background-color: yellow;
+    font-size: larger;
+    text-align: center;
+    width: 100vw;
+}
+.hello3
+{
+    
+    background-color: pink;
+    font-size: larger;
+    text-align: center;
+    width: 100vw;
+}
