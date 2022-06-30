@@ -2,27 +2,31 @@
 {
     margin: 0;
 }
-.hello1
+#hello1
 {
     
     background-color: red;
     font-size: larger;
-    text-align: center;
     width: 100vw;
 }
-.hello2
+#hello2
 {
    
     background-color: yellow;
     font-size: larger;
-    text-align: center;
     width: 100vw;
 }
-.hello3
+#hello3
 {
     
     background-color: pink;
     font-size: larger;
-    text-align: center;
+    width: 100vw;
+}
+.goodMorning
+{
+    background-color: purple;
+    font-size: larger;
+    color: white;
     width: 100vw;
 }
