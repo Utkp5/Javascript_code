@@ -60,7 +60,9 @@
 
 
 
-// ****NOTES****
+// ****NOTES********NOTES********NOTES********NOTES********NOTES********NOTES****
+
+
 
 //first
 // const s = "apple";
@@ -270,3 +272,72 @@
 
 // console.log(apple());
 
+
+
+// ****NOTES********NOTES********NOTES********NOTES********NOTES********NOTES****
+
+
+
+//+++++MY_NOTES+++++++++MY_NOTES+++++MY_NOTES++++++++++++MY_NOTES++++++++++MY_NOTES+++
+
+
+
+// console.log(9-"5"); _bug_
+// console.log("utkarsh" - "pandit");
+// false --> 0
+// true --> 1
+// console.log(false + true); 
+// console.log(true + true); 
+// console.log(false - true); 
+
+// Q1. swap a number without using third variable.
+// Answer
+//  var a = 10;
+//  var b = 20;
+//  a = a+b;
+//  b = a - b;
+//  a = a - b
+//  console.log("value of a "+ a);
+//  console.log("value of b "+ b);
+
+// Q2. WAP to check whether a given yr is leap year or not.
+// Answer
+// var yr = 2024
+// if (yr % 4 == 0 || yr % 400 == 0 ) {
+//     console.log("It's a leap Year");
+// } else {
+//     console.log("It's not a leap Year");    
+// }
+
+//***return function***
+// function sum(x,y) {
+//     return x + y;
+// }
+// let z = sum(10,20);
+// console.log("the sum is : "+z);
+
+//***Anonymous***
+//  var x = function(x,y) {
+//     return x + y;
+// }
+// let z = x(10,20);
+// console.log("the sum is : "+z);
+
+//***Array with for Each***
+// let arr = ["hello","good","morning","utkarsh","pandit"]
+// arr.forEach(function (element){
+//     console.log(element);
+// });
+
+//***Array with for Arrow function***
+// let arr = ["hello","good","morning","utkarsh","pandit"]
+// arr.forEach((element) =>{
+//     console.log(element);
+// })
+
+// Q3.
+arr = [4,9,16,25,36,49,64,81,100]
+var sqrt = arr.map((element) =>{
+    return Math.sqrt((element))
+})
+console.log(sqrt);
