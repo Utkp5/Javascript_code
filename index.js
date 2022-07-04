@@ -336,8 +336,8 @@
 // })
 
 // Q3.
-arr = [4,9,16,25,36,49,64,81,100]
-var sqrt = arr.map((element) =>{
-    return Math.sqrt((element))
-})
-console.log(sqrt);
+// arr = [4,9,16,25,36,49,64,81,100]
+// var sqrt = arr.map((element) =>{
+//     return Math.sqrt((element))
+// })
+// console.log(sqrt);
