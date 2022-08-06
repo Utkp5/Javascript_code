@@ -5,11 +5,13 @@ const obj = {
     css  : 70,
 }
 
-//for in loop
+//for in loop basically used with object .
 for (let key in obj) {
     console.log("Marks in " + key + " Subject is " + obj[key]);
 }
 
+
+//Simple average of a number.
 const mean = (w,x,y,z) => {
     return((w+x+y+z)/4);
 }
