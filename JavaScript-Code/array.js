@@ -37,10 +37,10 @@ let num1 = [9,8,7,6,5,4,3,22,2,1] // it will sort according to string
 delete num1[1];
 console.log(num1);
 console.log(num1.length);
- let sort = num1.sort();
- console.log(sort);
- let reverse = num1.reverse();
- console.log(reverse);
+let sort = num1.sort();
+console.log(sort);
+let reverse = num1.reverse();
+console.log(reverse);
 
 //slice it will not modify original array|| splice
 
