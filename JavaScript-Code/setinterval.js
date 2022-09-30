@@ -1,10 +1,10 @@
 console.log("Start");
 
-// setTimeout( function(){ // it will run after this time
+setTimeout( function(){ // it will run after this time
 
-//     console.log("hello utkarsh");
+    console.log("hello utkarsh");
 
-// },5000)
+},5000)
 
 setInterval( function () { // it will execute continously until we stop
     console.log("utkarsh");
