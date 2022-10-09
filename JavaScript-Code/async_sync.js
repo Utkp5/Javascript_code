@@ -4,7 +4,7 @@
 // console.log("ok");
 
 
-//eg of async  in this the code run || 
+//eg of async  in this the code run parallely 
 console.log("starting");
 setTimeout(() => {
     console.log("work done");
